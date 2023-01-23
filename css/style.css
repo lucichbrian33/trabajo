@@ -9,12 +9,15 @@ body {
     background-color: rgba(0, 128, 0, 40%);
 }
 
-.contenedor--header {
-    display: flex;
-    height: 70px;
-    background-color: rgb(64, 218, 77);
-    justify-content: space-between;
-    align-items: center;
+.contenedor {
+    width: 100%;
+    max-width: 1200px;
+    overflow: hidden;
+}
+
+.contenedor-main {
+    width: 100%;
+    box-sizing: border-box;
 }
 
 .navbar ul li {
@@ -43,19 +46,20 @@ body {
 .titulo2 {
     padding: 10px;
     text-align: center;
-    color: rgba(11, 88, 11, 0.623);
+    color:black;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .contenedor1 img {
     float: left;
     padding: 50px;
-    width: 500px;
-    height: 500px;
+    width: 100%;
+    height: auto;
 }
 
 .contenedor1 p {
-    font-size: 30px;
+    padding: 50px;
+    font-size: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: green;
 }
@@ -63,18 +67,16 @@ body {
 .contenedor2 img {
     float: right;
     padding: 50px;
-    width: 500px;
-    height: 500px;
+    width: 100%;
+    height: auto;
 }
 
 .contenedor2 p {
     padding: 50px;
-    font-size: 30px;
+    font-size: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: green;
 }
-
-
 
 .acerca {
     float: left;
@@ -108,6 +110,7 @@ body {
 }
 
 .h2-1 {
+    color: black;
     display: flex;
     justify-content: center;
     padding-top: 30px;
@@ -121,7 +124,7 @@ body {
     margin-top: 50px;
     padding: 30px;
     align-content: center;
-    text-align:center;
+    text-align: center;
 }
 
 .form .info {
@@ -139,8 +142,8 @@ body {
 
 .fieldset {
     background-color: transparent;
-    border: rgb(31, 192, 144) 5px inset; 
-} 
+    border: rgb(31, 192, 144) 5px inset;
+}
 
 .legenda {
     margin-top: 10%;
@@ -158,5 +161,11 @@ body {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     padding: 1em 0;
     text-align: center;
-    margin-top: 50%;
+    width: 100%;
+}
+
+@media screen and (max-width:1024) {
+    .contenedor {
+        width: 100%
+    }
 }
