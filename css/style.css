@@ -40,10 +40,10 @@ header {
 .bars{
     display: none;
 }
-.navbar ul{
+.navbar ul {
     display: flex;
 }
-.navbar ul li a{
+.navbar ul li a {
     display: block;
     color: rgb(59, 80, 76);
     font-size: 18px;
@@ -52,13 +52,14 @@ header {
     transition: 0.2s;
     margin: 0 5px;
 }
-.navbar ul li a:hover{
+.navbar ul li a:hover {
     color: rgb(59, 80, 76);
-    background-color: royalblue;
+    background-color: rgb(145, 179, 22);
+    transition: 0.1ms;
 }
-.navbar ul li a.item-list{
+.navbar ul li a {
     color: rgb(59, 80, 76);
-    background-color: royalblue;
+    background-color: rgb(22, 214, 48);
 }
 
 .titulo2 {
@@ -130,6 +131,7 @@ header {
 
 .h2-1 {
     color: black;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     display: flex;
     justify-content: center;
     padding-top: 30px;
@@ -205,7 +207,7 @@ header {
         left: 0;
         width:100vw;
         background-color: rgb(21, 32, 21);
-        transition: 0.5s;
+        transition: 0.1ms;
         overflow:hidden ;
     }
     .navbar.item-list {
@@ -215,7 +217,7 @@ header {
         display: block;
         width: fit-content;
         margin: 80px auto 0 auto;
-        transition: 0.5;
+        transition: 0.1ms;
         opacity: 0;
     }
     .navbar.item-list ul {
