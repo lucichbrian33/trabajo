@@ -15,7 +15,7 @@ body {
 
 .contenedor {
     width: 100%;
-    max-width: 1200px;
+    max-width: 2600px;
     overflow: hidden;
 }
 
@@ -75,7 +75,7 @@ header {
 
 .contenedor1 img {
     float: left;
-    padding: 50px;
+    padding: 10px;
     width: 100%;
     height: auto;
 }
@@ -138,8 +138,8 @@ header {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     display: flex;
     justify-content: center;
-    padding-top: 30px;
-    padding-bottom: 30px;
+    padding-top: 15px;
+    padding-bottom: 15px;
 }
 
 .nav__bar ul li a {
