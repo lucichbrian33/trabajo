@@ -43,10 +43,11 @@ header {
 .bars{
     display: none;
 }
-.navbar ul {
+/*barra de navegacion*/
+.nav__bar ul {
     display: flex;
 }
-.navbar ul li a {
+.nav__bar ul li a {
     display: block;
     color: rgb(59, 80, 76);
     font-size: 18px;
@@ -55,12 +56,12 @@ header {
     transition: 0.2s;
     margin: 0 5px;
 }
-.navbar ul li a:hover {
+.nav__bar ul li a:hover {
     color: rgb(59, 80, 76);
     background-color: rgb(145, 179, 22);
     transition: 0.1ms;
 }
-.navbar ul li a {
+.nav__bar ul li a {
     color: rgb(59, 80, 76);
     background-color: rgb(22, 214, 48);
 }
@@ -141,46 +142,7 @@ header {
     padding-bottom: 30px;
 }
 
-.form {
-    position: absolute;
-    left: 50px;
-    width: 20%;
-    margin-top: 50px;
-    padding: 30px;
-    align-content: center;
-    text-align: center;
-}
-
-.form .info {
-    margin-bottom: 15px;
-    align-items: center;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: justify;
-    -ms-flex-pack: justify;
-    justify-content: space-between;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-}
-
-.fieldset {
-    background-color: transparent;
-    border: rgb(31, 192, 144) 5px inset;
-}
-
-.legenda {
-    margin-top: 10%;
-}
-
-.input {
-    align-content: center;
-    align-items: center;
-    padding: 5%;
-    border: 1px solid #ccc;
-} 
-
-.navbar ul li a {
+.nav__bar ul li a {
     text-decoration: none;
 }
 
@@ -194,6 +156,7 @@ header {
     width: 100%;
 }
 
+/*media query*/
 @media screen and (max-width:900px) {
 
     header {
@@ -209,7 +172,7 @@ header {
         background-color:rgb(15, 20, 20);
         margin: 6px 0px;
     }
-    .navbar {
+    .nav__bar {
         height: 0px;
         position: absolute;
         top:80px;
@@ -219,21 +182,19 @@ header {
         transition: 0.1ms;
         overflow:hidden ;
     }
-    .navbar.item-list {
+    .nav__bar.item-list {
         height: 450px;
     }
-    .navbar ul {
+    .nav__bar ul {
         display: block;
         width: fit-content;
         margin: 80px auto 0 auto;
         transition: 0.1ms;
         opacity: 0;
     }
-    .navbar.item-list ul {
+    .nav__bar.item-list ul {
         opacity: 1;
     }
-    .navbar ul li a {
+    .nav__bar ul li a {
     margin-bottom: 20px;
     }
-
-}

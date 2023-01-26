@@ -1,5 +1,5 @@
 bars = document.querySelector(".bars");
 bars.onclick = function () {
-    navBar = document.querySelector(".navbar");
-    navBar.classList.toggle("item-list")
+    nav__Bar = document.querySelector(".nav__bar");
+    nav__Bar.classList.toggle("item-list")
 }
