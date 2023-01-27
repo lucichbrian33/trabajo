@@ -141,7 +141,7 @@ header {
 }
 .h2-2{
 background-color: rgba(165, 149, 1, 0.623);
-transition: all 10s;
+transition: all 20s;
 transform: rotateX(0deg);
 transform-style: preserve-3d;
 }
