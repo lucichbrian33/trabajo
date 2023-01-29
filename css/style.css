@@ -47,6 +47,7 @@ header {
 /*barra de navegacion*/
 .nav__bar ul {
     display: flex;
+    
 }
 .nav__bar ul li a {
     display: block;
@@ -161,6 +162,9 @@ transform-style: preserve-3d;
     position: absolute;
     bottom: 0;
     width: 100%;
+}
+.item-list{
+    z-index: 1;
 }
 
 /*media query*/
