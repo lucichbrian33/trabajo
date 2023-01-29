@@ -33,6 +33,9 @@ header {
     justify-content: space-between;
     padding: 0 10px;
 }
+.item-list{
+    z-index: 20;
+}
 
 .titulo h1 {
     font-size: 34px;
@@ -127,12 +130,19 @@ header {
     margin-left: 25px;
     margin-right: 25px;
 }
+
+.img_relleno{
+    height: 500px;
+    
+}
+
 /*transfor*/
 .h2-1 {
     color: black;
     font-family: 'Unbounded', cursive;
     display: flex;
     justify-content: center;
+    font-size: 37px;
 }
 .h2-2{
 background-color: rgba(165, 149, 1, 0.623);
@@ -163,9 +173,7 @@ transform-style: preserve-3d;
     bottom: 0;
     width: 100%;
 }
-.item-list{
-    z-index: 1;
-}
+
 
 /*media query*/
 @media screen and (max-width:900px) {
