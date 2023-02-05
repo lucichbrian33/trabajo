@@ -1,7 +1,7 @@
-.nav__bar ul {
+.nav__bar {
     display: flex;
 
-    li a {
+    ul li a {
         display: block;
         color: map-get($paleta_de_colores , quinto);
         font-size: 18px;
@@ -9,17 +9,19 @@
         border-radius: 15px;
         transition: 0.2s;
         margin: 0 5px;
-    }
 
-    li a:hover {
-        color: map-get($paleta_de_colores , quinto);
-        background-color: map-get($paleta_de_colores , sexto);
-        transition: 0.1ms;
-    }
 
-    li a {
-        color: map-get($paleta_de_colores , quinto);
-        background-color: map-get($paleta_de_colores , septimo);
-        text-decoration: none;
+        a:hover {
+            color: map-get($paleta_de_colores , quinto);
+            background-color: map-get($paleta_de_colores , sexto);
+            transition: 0.1ms;
+
+
+            a {
+                color: map-get($paleta_de_colores , quinto);
+                background-color: map-get($paleta_de_colores , septimo);
+                text-decoration: none;
+            }
+        }
     }
 }
