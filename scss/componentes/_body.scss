@@ -1,0 +1,6 @@
+body {
+    background-color: map-get($paleta_de_colores, primario);
+    position: relative;
+    padding-bottom: 3em;
+    min-height: 100vh;
+}

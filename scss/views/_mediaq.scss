@@ -1,0 +1,42 @@
+@media screen and (max-width:900px) {
+
+    header {
+        padding: 0px 30px;
+    }
+    .bars {
+        display: block;
+        cursor: pointer;
+    }
+    .bars .line {
+        width: 30px;
+        height: 3px;
+        background-color:rgb(15, 20, 20);
+        margin: 6px 0px;
+    }
+    .nav__bar {
+        height: 0px;
+        position: absolute;
+        top:80px;
+        left: 0;
+        width:100vw;
+        background-color: rgb(21, 32, 21);
+        transition: 0.1ms;
+        overflow:hidden ;
+    }
+    .nav__bar.item-list {
+        height: 450px;
+    }
+    .nav__bar ul {
+        display: block;
+        width: fit-content;
+        margin: 80px auto 0 auto;
+        transition: 0.1ms;
+        opacity: 0;
+    }
+    .nav__bar.item-list ul {
+        opacity: 1;
+    }
+    .nav__bar ul li a {
+    margin-bottom: 20px;
+    }
+}
