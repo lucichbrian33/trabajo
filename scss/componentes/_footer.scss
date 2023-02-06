@@ -1,5 +1,5 @@
 .footer {
-    background-color: map-get($paleta_de_colores, secundario);
+    background-color: map-get($paleta_de_colores , secundario);
     font-family: 'Unbounded', cursive;
     padding: 1em 0;
     text-align: center;
