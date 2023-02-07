@@ -77,7 +77,8 @@ header {
 .nav__bar ul li a {
   display: block;
   color: rgb(59, 80, 76);
-  font-size: 20px;
+  font-size: 21px;
+  font-family: "Arimo", sans-serif;
   padding: 10px 25px;
   border-radius: 15px;
   transition: 0.2s;
