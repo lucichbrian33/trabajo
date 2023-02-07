@@ -128,7 +128,7 @@ header {
 .contenedor1 p {
   padding: 50px;
   font-size: 32px;
-  font-family: "Pacifico", cursive;
+  font-family: "Noto Sans", sans-serif;
   color: #33691e;
 }
 
@@ -141,7 +141,7 @@ header {
 .contenedor2 p {
   padding: 50px;
   font-size: 32px;
-  font-family: "Pacifico", cursive;
+  font-family: "Noto Sans", sans-serif;
   color: #33691e;
 }
 
@@ -156,7 +156,7 @@ header {
 .food {
   padding: 50px;
   font-size: 32px;
-  font-family: "Pacifico", cursive;
+  font-family: "Noto Sans", sans-serif;
   color: #33691e;
 }
 
