@@ -10,6 +10,7 @@
   width: 100%;
   max-width: 2600px;
   overflow: hidden;
+  text-align: center;
 }
 
 body {
@@ -120,10 +121,9 @@ header {
 
 .contenedor1 img {
   border-radius: 600px;
-  float: left;
   padding: 20px 50px;
-  width: 100%;
-  height: auto;
+  width: 80%;
+  height: 80%;
 }
 .contenedor1 p {
   padding: 50px;
@@ -133,10 +133,9 @@ header {
 }
 
 .contenedor2 img {
-  float: right;
   padding: 50px;
-  width: 100%;
-  height: auto;
+  width: 80%;
+  height: 80%;
 }
 .contenedor2 p {
   padding: 50px;
@@ -147,10 +146,9 @@ header {
 
 .acerca {
   border-radius: 600px;
-  float: left;
   padding: 20px 50px;
-  width: 100%;
-  height: auto;
+  width: 80%;
+  height: 80%;
 }
 
 .food {
