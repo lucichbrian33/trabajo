@@ -1,0 +1,6 @@
+@mixin tipografia {
+    padding: 50px;
+    font-size: 32px;
+    font-family: 'Pacifico', cursive;
+    color: map-get($paleta_de_colores , secundario);
+}

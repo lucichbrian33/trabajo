@@ -1,43 +1,40 @@
-.contenedor1 img {
-    float: left;
-    padding: 10px;
-    width: 100%;
-    height: auto;
+.contenedor1 {
+    img {
+        border-radius: 600px;
+        float: left;
+        padding: 20px 50px;
+        width: 100%;
+        height: auto;
+    }
+
+    p {
+@include tipografia;
+    }
 }
 
-.contenedor1 p {
-    padding: 50px;
-    font-size: 20px;
-    font-family: 'Unbounded', cursive;
-    color:map-get($paleta_de_colores , secundario);
-}
+.contenedor2 {
+    img {
+        float: right;
+        padding: 50px;
+        width: 100%;
+        height: auto;
+    }
 
-.contenedor2 img {
-    float: right;
-    padding: 50px;
-    width: 100%;
-    height: auto;
-}
-
-.contenedor2 p {
-    padding: 50px;
-    font-size: 20px;
-    font-family:'Unbounded', cursive;
-    color: map-get($paleta_de_colores , secundario);
+    p {
+        @include tipografia;
+    }
 }
 
 .acerca {
+    border-radius: 600px;
     float: left;
-    padding: 20px;
+    padding: 20px 50px;
     width: 100%;
-    height: 80%;
+    height: auto;
 }
 
 .food {
-    padding: 50px;
-    font-size: 30px;
-    font-family:'Unbounded', cursive;
-    color: map-get($paleta_de_colores , secundario);
+    @include tipografia;
 }
 
 .rellena {
@@ -53,12 +50,20 @@
 }
 
 .imagen-uu {
-    width: 50%;
+    border-radius: 600px;
+    width: 45%;
     margin-left: 25px;
     margin-right: 25px;
 }
 
-.img_relleno{
-    height: 500px;
-    
+.img_rellena{
+    border-radius: 400px;
+padding: 50px !important;
+width: 100% !important;
+}
+
+.img_relleno {
+    border-radius: 500px;
+    max-width: 100%;
+    height: auto;
 }
