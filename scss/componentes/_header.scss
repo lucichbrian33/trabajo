@@ -22,12 +22,13 @@ header {
 }
 
 .h2-1 {
-    padding-top: 10px;
+    padding-top: 20px;
     color: map-get($paleta_de_colores , noveno);
     font-family: 'Rubik', sans-serif;
     display: flex;
     justify-content: center;
     font-size: 37px;
+    font-weight: bold;
 }
 
 .h2-2 {
