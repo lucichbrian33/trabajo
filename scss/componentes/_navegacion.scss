@@ -64,3 +64,10 @@
 .bars {
     display: none;
 }
+ul{
+    li{
+        .item-list{
+            padding-bottom: -16px !important;
+        }
+    }
+}
