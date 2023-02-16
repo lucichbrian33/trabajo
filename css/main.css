@@ -74,6 +74,8 @@ header {
 
 .nav__bar ul {
   display: flex;
+  margin-bottom: 0;
+  padding-left: 0;
 }
 
 .nav__bar ul li a {
@@ -130,6 +132,8 @@ ul li .item-list {
   padding: 20px 50px;
   width: 70%;
   height: 80%;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 .contenedor1 p {
   padding: 50px;
@@ -142,6 +146,8 @@ ul li .item-list {
   padding: 50px;
   width: 70%;
   height: 80%;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 .contenedor2 p {
   padding: 50px;
@@ -155,6 +161,8 @@ ul li .item-list {
   padding: 20px 50px;
   width: 80%;
   height: 80%;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 .food {
@@ -162,7 +170,7 @@ ul li .item-list {
   font-size: 32px;
   font-family: "Noto Sans", sans-serif;
   color: #33691e;
-  padding-bottom: 80px;
+  padding-bottom: 40px;
 }
 
 .rellena {
@@ -197,7 +205,7 @@ ul li .item-list {
   width: 76%;
   -o-object-fit: cover;
      object-fit: cover;
-  padding-bottom: 40px;
+  padding-bottom: 10px;
 }
 
 @media screen and (max-width: 900px) {
