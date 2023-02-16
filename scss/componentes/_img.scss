@@ -22,6 +22,7 @@
 
     p {
         @include tipografia;
+        margin-bottom: 15px;
     }
 }
 
@@ -35,7 +36,11 @@
 
 .food {
     @include tipografia;
-    padding-bottom: 40px;
+}
+
+.food_1{
+    @include tipografia;
+    margin: 80px;
 }
 
 .rellena {

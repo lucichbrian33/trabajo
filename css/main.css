@@ -136,7 +136,7 @@ ul li .item-list {
      object-fit: cover;
 }
 .contenedor1 p {
-  padding: 50px;
+  padding: 30px;
   font-size: 32px;
   font-family: "Noto Sans", sans-serif;
   color: #33691e;
@@ -150,10 +150,11 @@ ul li .item-list {
      object-fit: cover;
 }
 .contenedor2 p {
-  padding: 50px;
+  padding: 30px;
   font-size: 32px;
   font-family: "Noto Sans", sans-serif;
   color: #33691e;
+  margin-bottom: 15px;
 }
 
 .acerca {
@@ -166,11 +167,18 @@ ul li .item-list {
 }
 
 .food {
-  padding: 50px;
+  padding: 30px;
   font-size: 32px;
   font-family: "Noto Sans", sans-serif;
   color: #33691e;
-  padding-bottom: 40px;
+}
+
+.food_1 {
+  padding: 30px;
+  font-size: 32px;
+  font-family: "Noto Sans", sans-serif;
+  color: #33691e;
+  margin: 80px;
 }
 
 .rellena {
