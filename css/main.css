@@ -129,8 +129,8 @@ ul li .item-list {
 
 .contenedor1 img {
   border-radius: 600px;
-  padding: 20px 50px;
-  width: 70%;
+  padding: 20px 20px;
+  width: 80%;
   height: 80%;
   -o-object-fit: cover;
      object-fit: cover;
@@ -143,8 +143,8 @@ ul li .item-list {
 }
 
 .contenedor2 img {
-  padding: 50px;
-  width: 70%;
+  padding: 10px;
+  width: 80%;
   height: 80%;
   -o-object-fit: cover;
      object-fit: cover;
@@ -154,7 +154,7 @@ ul li .item-list {
   font-size: 32px;
   font-family: "Noto Sans", sans-serif;
   color: #33691e;
-  margin-bottom: 15px;
+  margin-bottom: 40px;
 }
 
 .acerca {

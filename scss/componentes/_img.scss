@@ -1,8 +1,8 @@
 .contenedor1 {
     img {
         border-radius: 600px;
-        padding: 20px 50px;
-        width: 70%;
+        padding: 20px 20px;
+        width: 80%;
         height: 80%;
         object-fit: cover;
     }
@@ -14,15 +14,15 @@
 
 .contenedor2 {
     img {
-        padding: 50px;
-        width: 70%;
+        padding: 10px;
+        width: 80%;
         height: 80%;
         object-fit: cover;
     }
 
     p {
         @include tipografia;
-        margin-bottom: 15px;
+        margin-bottom: 40px;
     }
 }
 
